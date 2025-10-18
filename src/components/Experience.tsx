@@ -56,7 +56,6 @@ const Experience = () => {
           <div className="relative">
             {/* Timeline line */}
             <div className="absolute left-8 top-0 bottom-0 w-px bg-gradient-primary opacity-50 hidden md:block" />
-
             <div className="space-y-12">
               {experiences.map((exp, index) => (
                 <div
@@ -69,7 +68,6 @@ const Experience = () => {
                     <div className="hidden md:flex w-16 h-16 rounded-full bg-gradient-primary items-center justify-center flex-shrink-0 shadow-glow">
                       <Briefcase className="w-6 h-6 text-white" />
                     </div>
-
                     {/* Content */}
                     <div className="glass rounded-2xl p-6 flex-1 hover:shadow-glow transition-all duration-300 hover:-translate-y-1">
                       <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-3">
